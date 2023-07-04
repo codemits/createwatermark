@@ -42,7 +42,3 @@ You can customize the utility by modifying the code in the `WatermarkCreater.jav
 - Changing the font and font size of the watermark.
 - Modifying the watermark color and opacity.
 - Adjusting the position and rotation of the watermark.
-
-## License
-
-This utility is licensed under the [MIT License](LICENSE).
