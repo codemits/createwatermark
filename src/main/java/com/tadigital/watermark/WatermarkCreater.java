@@ -26,11 +26,6 @@ public class WatermarkCreater {
             String outputFile = properties.getProperty("outputFilePath");
             String watermarkText = properties.getProperty("watermarkText");
 
-            System.out.println("Input File Path: " + inputFile);
-            System.out.println("Output File Path: " + outputFile);
-            System.out.println("Watermark Text: " + watermarkText);
-
-
             // Load the PDF document
             PDDocument document = PDDocument.load(new File(inputFile));
 
